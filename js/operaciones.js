@@ -23,7 +23,7 @@ function obtener() {
     var r = $('#valorR').val();
     
     var div = D / d;
-    div = 1.187;
+    
     if (buscaDd(div)) {
         var arreglo = flujoNormal(div);
         alert(calculaKt(arreglo[0], r, d, arreglo[1]));
